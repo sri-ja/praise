@@ -212,11 +212,11 @@ def pretty_print_review_tables(review_tables):
 
 def highlight(val):
     if "missing" in val:
-        return f"background-color: #256b38"
+        return f"background-color: #173B45"
     elif "contradicts" in val:
-        return f"background-color: #730d2b"
+        return f"background-color: #B43F3F"
     elif "partially matches" in val:
-        return f"background-color: #280575"
+        return f"background-color: #c25402"
     else:
         return ""
 # -----------------------------------------------------------------------------------------------------------
